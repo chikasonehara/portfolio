@@ -1,0 +1,102 @@
+@charset "utf-8";
+/*
+=======================================
+  Reset CSS
+=======================================
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, main, menu, nav, section, summary,
+time, mark, audio, video{
+  margin:0;
+  padding:0;
+}
+article,aside,details,figcaption,figure,
+footer,header,main,menu,nav,section{
+  display:block;
+}
+html{
+  -webkit-text-size-adjust: 100%;
+  font-size: 20;
+  font-family: sans-serif;
+}
+body {
+  background-color: #ffffff;
+  line-height: 1.5;
+  font-size: 20;
+  font-family: sans-serif;
+}
+img{
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,ol{
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse; 
+  border-spacing: 0;
+}
+
+img, input, select, textarea { 
+  vertical-align: middle;
+}
+a {
+  color: #000000;
+  transition: 0.5s;
+}
+a:hover {
+  color: #d53e04;
+}
+a:hover img {
+  opacity: 0.7;
+}
+
+h2,h3,p,div {
+  text-align: center;
+}
+
+
+/*
+=========================================
+  Base Layout
+=========================================
+*/
+
+/*container*/
+.container {
+  max-width: 1880px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*grid*/
+@media screen and (min-width: 768px) {
+  /*汎用2カラム,3カラム指定*/
+  .pc-grid-col2,
+  .pc-grid-col3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /*2カラムの列幅*/
+  .pc-grid-col2 .col {
+    width: 48.9361%;
+  }
+  /*3カラムの列幅*/
+  .pc-grid-col3 .col {
+    width: 31.9148%;
+  }
+}
+/*

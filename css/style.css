@@ -1,0 +1,173 @@
+@charset "utf-8";
+/*
+=========================================
+  Modules（Block）
+=========================================
+*/
+
+/*header
+--------------------*/
+.header {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  /*max-width: 940px;*/
+  /*height: calc(100vh - 60px);*/
+  background: url(../img/IMG_1378_bfr.png) center center no-repeat;
+  background-size: cover;
+}
+.header-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  max-width: 1880px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-style: italic;
+  text-align: center;
+}
+/*global navigation
+--------------------*/
+.global-nav ul {
+  display: flex;
+}
+.global-nav li {
+  width: 25%;
+}
+.global-nav a {
+  display: block;
+  /*font-style: bold;*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.global-nav a:hover {
+  background: #ecdfc2;
+}
+div + div.entrybtn{
+  margin: 10px 0;  
+}
+/*section
+--------------------*/
+.section {
+  margin: 40px 0;
+}
+
+/*skill-title
+--------------------*/
+h3.skill-title{
+  margin: 20px 0;
+  padding: 5px;
+  background: #99D1ff;
+  display: inline-block;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.link >a {
+  margin: 20px 0;
+  padding: 10px;
+  color: #84D1F9;
+  font-size: 25px;
+}
+.contact-form-sub{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 352px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #99D1FF;
+  border-radius: 32px;
+}
+
+div.input-text input[type="text"], 
+div.input-text input[type="email"],
+div.input-msg textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+div.input-text input[type="text"]:focus, 
+div.input-text input[type="email"]:focus,
+div.input-msg textarea:focus {
+  background-color: #ffffee;
+  outline: none;
+  border-left: 5px solid #ffa700;
+}
+/*カーソル形状*/
+label,
+input,
+textarea,
+select {
+  cursor: pointer;
+}
+/*ボタンの設定*/
+.entrybtn {
+  text-align: center;
+}
+/*ボタンの基本スタイル*/
+.entrybtn input {
+  width: 260px;
+  background: #ccc;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 1em;
+  -webkit-appearance: none;
+}
+
+/*
+/*footer
+--------------------*/
+.footer{
+  padding: 20px 0;
+  background: #fff;
+}
+/*copyright*/
+.copyright {
+  text-align: right;
+}
+
+/*リンク色の設定*/
+
+
+/*ヘッダー,ナビ,フッターの共通設定*/
+
+
+/*ナビ*/
+
+
+/*ページタイトルの設定*/
+
+/*大見出しの設定*/
+
+
+
+/*小見出しの設定*/
+
+
+/*コンテンツ枠の設定*/
+
+/*「もっと見る」リンクの設定*/
+
+/*リンク種別アイコン*/
+
+
+/*セクション間隔*/
+
+
+/*回り込み設定*/
+
+
+/*円形にクリップ*/
+
+

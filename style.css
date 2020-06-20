@@ -1,0 +1,186 @@
+@charset "utf-8";
+/*
+=======================================
+  Reset CSS
+=======================================
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, main, menu, nav, section, summary,
+time, mark, audio, video{
+  margin:0;
+  padding:0;
+}
+article,aside,details,figcaption,figure,
+footer,header,main,menu,nav,section{
+  display:block;
+}
+html{
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background-color: #ffffff;
+  line-height: 1.5;
+  font-size: 20;
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+img{
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,ol{
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse; 
+  border-spacing: 0;
+}
+
+img, input, select, textarea { 
+  vertical-align: middle;
+}
+a {
+  color: #000000;
+  transition: 0.5s;
+}
+a:hover {
+  color: #d53e04;
+}
+a:hover img {
+  opacity: 0.7;
+}
+
+/*
+=========================================
+  Base Layout
+=========================================
+*/
+
+/*container*/
+.container {
+  max-width: 1880px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*grid*/
+@media screen and (min-width: 768px) {
+  /*汎用2カラム,3カラム指定*/
+  .pc-grid-col2,
+  .pc-grid-col3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /*2カラムの列幅*/
+  .pc-grid-col2 .col {
+    width: 48.9361%;
+  }
+  /*3カラムの列幅*/
+  .pc-grid-col3 .col {
+    width: 31.9148%;
+  }
+}
+/*
+=========================================
+  Modules（Block）
+=========================================
+*/
+
+/*header
+--------------------*/
+.header {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  /*max-width: 940px;*/
+  /*height: calc(100vh - 60px);*/
+  background: url(img/IMG_1378_bfr.png) center center no-repeat;
+  background-size: cover;
+}
+.header-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  max-width: 1880px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  font-size: 30;
+  font-style: italic;
+  text-align: center;
+}
+/*global navigation
+--------------------*/
+.global-nav {
+  display: flex;
+}
+.global-nav a {
+  display: block;
+  font-size: 30;
+  font-style: bold;
+  text-align: center;
+  text-decoration: none;
+
+}
+.global-nav a:hover {
+  background: #ecdfc2;
+}
+/*footer
+--------------------*/
+.footer{
+  padding: 20px 0;
+  background: #fff;
+}
+/*copyright*/
+.copyright {
+  text-align: right;
+}
+
+/*リンク色の設定*/
+
+
+/*ヘッダー,ナビ,フッターの共通設定*/
+
+
+/*ナビ*/
+
+
+/*ページタイトルの設定*/
+
+/*大見出しの設定*/
+
+
+
+/*小見出しの設定*/
+
+
+/*コンテンツ枠の設定*/
+
+/*「もっと見る」リンクの設定*/
+
+/*リンク種別アイコン*/
+
+
+/*セクション間隔*/
+
+
+/*回り込み設定*/
+
+
+/*円形にクリップ*/
+
+
